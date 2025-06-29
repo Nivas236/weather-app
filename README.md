@@ -20,3 +20,8 @@ The app is also built as a Progressive Web App (PWA). It includes a manifest fil
 Technologies used include HTML, CSS, and JavaScript, with API integration and dynamic DOM manipulation. The user interface design follows a clean, modern, and mobile-first approach with clear typography, iconography, and fluid transitions.
 Overall, the Smart Weather App demonstrates strong proficiency in frontend development, API integration, user-centered design, and web accessibility. It combines functionality and creativity, making it a standout project and a practical tool that users can rely on daily.
 
+OUTPUT :
+![Image](https://github.com/user-attachments/assets/017d76e6-3280-4180-8960-f35203246fb6)
+![Image](https://github.com/user-attachments/assets/ef01650c-b0de-4152-bc62-5e0c5d36e3b1)
+![Image](https://github.com/user-attachments/assets/0173fdb7-f10b-46ed-b027-30c6bd7fa8af)
+
