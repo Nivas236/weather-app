@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #000; /* <-- default text color for light mode */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+  color: #000; /* default text for light mode */
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff40;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background: #ffffff70;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.forecast-card {
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* DARK MODE SUPPORT */
+body.dark {
+  background: #121212 !important;
+  color: #f0f0f0;
+}
+
+.weather-card.dark {
+  background: #1f1f1f;
+  color: #f0f0f0;
+}
+
+.buttons button.dark {
+  background: #333;
+  color: #fff;
+}
+
+input[type="text"].dark {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .weather-card {
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}

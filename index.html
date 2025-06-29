@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon.png" />
+</head>
+<body>
+  <div class="app-container">
+    <div class="weather-card">
+      <h1>🌤 Smart Weather</h1>
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <div class="buttons">
+        <button onclick="getWeather()">🔍 Search</button>
+        <button onclick="getLocationWeather()">📍 Location</button>
+        <button onclick="startVoiceInput()">🎤 Voice</button>
+        <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+      </div>
+      <div id="weatherResult"></div>
+      <div id="forecastContainer">
+        <h3>📅 5-Day Forecast</h3>
+        <div id="forecastCards"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
